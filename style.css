@@ -1,0 +1,190 @@
+#editor .edit-post-header {
+    background-color: #e0e1f1;
+    background-image: url('./assets/frog_640.jpg');
+    background-size: cover;
+}
+
+#editor .components-button.components-icon-button,
+.components-button.components-icon-button
+#editor .components-dropdown-menu {
+    color: #ecf9ec;
+    background-color: transparent;
+}
+
+#editor .components-button.components-icon-button:focus,
+#editor .components-button.components-icon-button:hover,
+button.components-button.components-icon-button:focus,
+button.components-button.components-icon-button:hover{
+    background-color: #06a20f!important;
+    color: #191e23!important;
+}
+
+#editor .editor-block-mover button.components-button.components-icon-button,
+#editor .components-panel__body,
+.components-menu-group__label,
+#editor .components-popover__content,
+#editor .components-icon-button.components-toolbar__control,
+.editor-block-types-list__item-icon,
+.editor-post-visibility__dialog-fieldset {
+    color: #191e23;
+}
+
+#editor .edit-post-sidebar__panel-tab.is-active,
+.components-modal__frame .components-modal__header,
+#editor .components-panel__body-title button:focus {
+    background-color: #6bbb6f;
+}
+
+.editor-block-types-list__list-item:hover {
+    background-color: #6bbb6f;
+    border: 1px solid #b0ccb1;
+    box-shadow: 1px 1px 7px 1px rgba(44, 78, 45, 0.9);
+}
+
+#editor .components-panel__body-title,
+#editor .editor-post-last-revision__title,
+.edit-post-manage-blocks-modal .components-modal__header {
+    border: 1px solid #9da2c3;
+}
+
+#editor .components-panel__body-title,
+.components-panel__body.edit-post-last-revision__panel {
+    background-color: #06a20f;
+}
+
+#editor .edit-post-sidebar__panel-tab,
+#editor .edit-post-sidebar__panel-tabs,
+#editor .components-popover__content {
+    background-color: #0a9411;
+    box-shadow: 5px 2px 5px 1px rgba(3, 84, 7, 0.8);
+}
+
+#editor .components-tooltip__shortcut {
+    color: #b1f3b4;
+}
+
+#editor .components-popover:not(.is-without-arrow).is-bottom:after, 
+#editor .components-popover:not(.is-without-arrow).is-bottom:before {
+    border-bottom-color: #e0e1f1;
+}
+
+#editor .components-popover:not(.is-without-arrow).is-top:after,
+#editor .components-popover:not(.is-without-arrow).is-top:before {
+    border-top-color: #e0e1f1;
+    color: #191e23;
+}
+
+.panel__body+.components-panel__body {
+    margin-top: -5px;
+}
+
+#editor .block-editor-block-list__breadcrumb .components-toolbar,
+#editor .components-toolbar,
+.components-modal__frame .components-modal__content,
+.components-base-control.edit-post-manage-blocks-modal__category-title {
+    background-color: #0a9411
+}
+
+#editor .edit-post-layout__content {
+    background-color: #029a02;
+}
+
+#editor .edit-post-visual-editor.editor-styles-wrapper {
+    box-shadow: 0px 3px 17px 0px rgba(31, 45, 37, 0.8);
+    border: 2px solid #354e3f;
+    background-color: #fff;
+    margin: 30px;
+}
+
+#editor .edit-post-sidebar {
+    background-image: url('./assets/frog_640.jpg');
+    background-size: cover;
+}
+
+#editor a.editor-post-preview {
+    color: #191e23;
+    background-color: #0a9411;
+    box-shadow: 0px 1px 3px 1px inset rgb(5, 185, 82);
+    border: 0px;
+}
+
+#editor a.editor-post-preview:hover,
+#editor .post-publish-panel__postpublish-buttons a.components-button:hover,
+#editor .post-publish-panel__postpublish-buttons button.components-button:hover {
+    background-color: #05b952;
+}
+
+#editor button.editor-post-publish-button {
+    color: #191e23;
+    background-color: #0a9411;
+    box-shadow: 0px 1px 3px 1px inset rgb(5, 185, 82);
+    border: 0px;
+    opacity: 0.6;
+}
+
+#editor button.editor-post-publish-button[aria-disabled="false"] {
+    opacity: 1;
+    background-color: #0baf13;
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+
+#editor .editor-post-publish-panel__toggle,
+#editor .post-publish-panel__postpublish-buttons a.components-button,
+#editor .post-publish-panel__postpublish-buttons button.components-button {
+    color: #ecf9ec;
+    background-color: #0baf13;
+    box-shadow: 0px 1px 3px 1px inset rgb(5, 185, 82);
+    border: 0px;
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+#editor .editor-post-publish-panel {
+    background-color: #029a02;
+}
+
+#editor .editor-post-publish-panel__header {
+    background-color: #6bbb6f;
+}
+
+#editor .editor-post-publish-panel__prepublish {
+    color: #ecf9ec;
+}
+
+#editor span.editor-post-publish-panel__link,
+#editor .post-publish-panel__postpublish-header a {
+    color: #3251ff;
+}
+
+#editor .components-notice.is-success {
+    background-color: #06c306;
+}
+
+#editor .components-notice.is-warning {
+    background-color: #f9dc90;
+}
+
+#editor .components-notice.is-warning button.components-notice__dismiss {
+    background-color: #dec37d;
+}
+
+#editor .components-notice.is-warning button.components-notice__dismiss:hover {
+    background-color: #9c7206!important;
+    color: #000;
+}
+
+#editor .components-notice.is-error {
+    background-color: #f78e8e;
+}
+
+#editor .components-notice.is-error button.components-notice__dismiss {
+    background-color: #f56a6a;
+}
+
+#editor .components-notice.is-error button.components-notice__dismiss:hover {
+    background-color: #f71c1c!important;
+    color: #000;
+}
+
